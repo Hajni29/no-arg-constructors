@@ -1,0 +1,67 @@
+public class Person {
+    private String name;
+    private int age;
+
+    // No-arg constructor
+    public Person() {
+        this.name = "Unknown";
+        this.age = 0;
+    }
+
+    // Constructor with parameters
+    public Person(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    // Getters and setters
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public static void main(String[] args) {
+        // Creating an object using the no-arg constructor
+        Person person1 = new Person();
+        System.out.println("Person1: " + person1.getName() + ", " + person1.getAge());
+
+        // Creating an object using the parameterized constructor
+        Person person2 = new Person("Alice", 30);
+        System.out.println("Person2: " + person2.getName() + ", " + person2.getAge());
+    }
+}
+ Public code references from 4 repositories
+Explanation:
+No-Arg Constructor:
+
+Java
+public Person() {
+    this.name = "Unknown";
+    this.age = 0;
+}
+This constructor initializes the name with "Unknown" and age with 0.
+
+Parameterized Constructor:
+
+Java
+public Person(String name, int age) {
+    this.name = name;
+    this.age = age;
+}
+This constructor allows setting custom values for name and age.
+
+Creating Objects:
+
+Person person1 = new Person(); uses the no-arg constructor.
+Person person2 = new Person("Alice", 30); uses the parameterized constructor.
