@@ -1,5 +1,5 @@
 # no-arg-constructors
-What mean no-arg constructor in Java?
+What does no-arg constructor mean in Java?
 
 A no-argument constructor (or no-arg constructor) in Java is a constructor that does not take any parameters. It is used to create an instance of a class and initialize the object without requiring any arguments.
 
